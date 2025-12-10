@@ -1,0 +1,10 @@
+# infra/airflow/requirements.txt
+boto3==1.35.0
+minio==7.2.7
+pandas==2.2.2
+pyarrow==16.1.0
+apache-airflow-providers-http==4.11.1
+apache-airflow-providers-amazon==8.16.0
+pyspark==3.5.1
+fastapi==0.115.0
+uvicorn==0.30.0
