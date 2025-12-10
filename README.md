@@ -171,3 +171,7 @@ Escalabilidade → adicionar mais workers Spark/Airflow
 bash
 docker compose down -v
 docker compose up -d --build
+
+Riquelme - 6324064
+Naor Murkemberg - 6324552
+Natan santos - 6324697
