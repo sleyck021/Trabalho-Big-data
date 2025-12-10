@@ -28,7 +28,7 @@ def to_parquet(df: pd.DataFrame, path: str):
 def main():
     os.makedirs("/tmp/stage", exist_ok=True)
     src_path = "/opt/project/datasets/vendas.csv"
-    df = pd.read_csv(src_path, parse_dates=["order_date"])
+    df = pd.read_csv(src_path, parse_dates=["order_date"], comment='#')
     # Upload CSV ao raw
     upload_file("raw", "vendas/vendas.csv", src_path, "text/csv")
     # Também gerar Parquet no raw

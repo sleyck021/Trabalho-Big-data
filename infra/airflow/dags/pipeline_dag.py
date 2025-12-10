@@ -17,7 +17,7 @@ def task_ingest():
 def task_process():
     import sys
     sys.path.append(f"{PROJECT_SRC}/processing")
-    from spark_job import run
+    from pandas_job import run
     run()
 
 def task_check_gold():
